@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background: url(https://media.glassdoor.com/l/eb/80/1f/d8/mbl-head-office.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .corner {
+        background-position: top left;
+        width: 250px;
+        display: block;
+        display: inline;
+      }
+      .navbar {
+        margin-top: 10px;
+        background-color: transparent;
+        border-radius: 35px;
+
+        position: sticky;
+        top: 0;
+
+      }
+      .navbar ul {
+        overflow: auto;
+        float: left";
+      }
+      .navbar li {
+        float: left;
+
+        list-style: none;
+
+        box-sizing: border-box;
+        padding: 10px;
+      }
+      .navbar li a {
+        color: rgb(0, 0, 0);
+        font-size: large;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-weight: bolder;
+        font-size: 24px;
+        padding: 1;
+        text-decoration: none;
+        box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
+      }
+      a:hover {
+        cursor: pointer;
+        border: 2px solid purple;
+      }
+      .corner:hover {
+        cursor: pointer;
+        border: 2px solid purple;
+      }
+
+      .search {
+        padding: 11px 15px;
+        margin: auto;
+        font-size: 28px;
+
+        font-weight: bolder;
+        box-sizing: border-box;
+      }
+      nav input {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        float: right;
+        text-align: center;
+        font-style: italic;
+
+        padding-right: 50px;
+      }
+      .abc {
+        width: 1000px;
+
+        margin-left: 300px;
+        position: fixed;
+
+        top: 1px;
+      }
+      .btn {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 18px;
+        color: purple;
+      }
+      .btn1 {
+        display: inline;
+        margin-right: 13px;
+        float: right;
+      }
+      .btn:hover {
+        color: blue;
+        background-color: rgb(255, 0, 0);
+      }
+      #search:hover {
+        background-color: purple;
+      }
+      .contain{
+        border: 5px solid black;
+        border-radius: 15px
+        ;
+        margin: auto;
+        width: 60%;
+        margin-top: 80px;
+        padding: 5px;
+
+      }
+      .btn2{
+        text-align: center;
+        font-size: 24px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin: auto;
+        width: 100%;
+        padding: 15px;
+        background-color: purple;
+        color: white;
+
+      }
+      .btn2:hover{
+        background-color: black;
+      }
+      .form{
+        margin: 5px;
+      }
+      .head{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size: 30px;
+        text-align: center;
+        color: black;
+
+      }
+      .head1{
+        background-color:white;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="logo.png" alt="this is a pic" class="corner" />
+
+    <nav class="navbar">
+      <div class="abc">
+        <ul>
+          <li>
+            <a href="https://www.meezanbank.com/bank-accounts/" target="_blank">
+              Personal</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.meezanbank.com/corporate-banking/"
+              target="_blank"
+              >Buisness</a
+            >
+          </li>
+          <li>
+            <a href="https://www.meezanbank.com/ways-to-bank/" target="_blank"
+              >Ways To Bank</a
+            >
+          </li>
+          <li>
+            <a href="https://www.meezanbank.com/contact-us/" target="_blank"
+              >Contact Us</a
+            >
+          </li>
+          <div class="search">
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Explore Our Bank"
+            />
+          </div>
+        </ul>
+      </div>
+    </nav>
+    <div class="btn1">
+      <button class="btn">
+        <a
+          class="btn"
+          href="https://ebanking.meezanbank.com/AmbitRetailFrontEnd/login"
+          target="_blank"
+          >Log In!</a
+        >
+      </button>
+      <button class="btn">
+        <a
+          class="btn"
+          href="https://ebanking.meezanbank.com/AmbitRetailFrontEnd/mblOnlineRegistration"
+          target="_blank"
+          >Sign Up</a
+        >
+      </button>
+    </div>
+    <div class="contain">
+      <div class="head1">
+        <h2 class="head">JOIN THE BEST BANK OF PAKISTAN!</h2>
+        <h3 class="head">Our Services Includes!</h3>
+      </div>
+      <form action="notification.php"></form>
+      <div class="form">
+        <button class="btn2">Open A New Account</button>
+      </div>
+      <div class="form"><button class="btn2">Pay Your Bills</button></div>
+      <div class="form"><button class="btn2">Check Your Balance</button></div>
+      <div class="form"><button class="btn2">Account Informations</button></div>
+    </div>
+  </body>
+</html>
